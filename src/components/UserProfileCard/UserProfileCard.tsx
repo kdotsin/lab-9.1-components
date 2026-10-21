@@ -25,6 +25,7 @@ export default function UserProfileCard({user, showEmail, showRole, onEdit, chil
             >
                 Edit Profile
             </button>
+            {children}
         </div>
     )
 }
